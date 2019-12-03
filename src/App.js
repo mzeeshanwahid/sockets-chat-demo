@@ -47,6 +47,7 @@ function App() {
                   className="d-inline-block"
                   width="40"
                   src="https://image.flaticon.com/icons/svg/149/149071.svg"
+                  alt="Profile"
                 />
                 <span className="ml-3 lead">{sender.name}</span>
               </div>
@@ -54,9 +55,9 @@ function App() {
           })}
         </div>
         <div className="col-sm-8">
-          <div className="d-block p-4">
+          <div className="d-block p-4"  style={{maxHeight: "400px", overflow: "auto"}}>
             {messages.length > 0 ? (
-              <Messages messages={messages} />
+              <Messages messages={messages} sender="1" />
             ) : (
               <div className="text-center">
                 <span>No messages yet!</span>

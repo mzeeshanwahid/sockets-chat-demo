@@ -43,6 +43,31 @@ let initData = [
     id: 6,
     sender: "2",
     message: "What's Up!!"
+  },
+  {
+    id: 7,
+    sender: "2",
+    message: "I was thinking about a meetup?"
+  },
+  {
+    id: 8,
+    sender: "2",
+    message: "What do you say?"
+  },
+  {
+    id: 9,
+    sender: "1",
+    message: "On karo scene. I am inn"
+  },
+  {
+    id: 10,
+    sender: "1",
+    message: "Ma bakio se pouch k batata hun"
+  },
+  {
+    id: 11,
+    sender: "2",
+    message: "Okay. Waiting .."
   }
 ];
 
